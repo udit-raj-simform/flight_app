@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 
 mixin Constants {
   static final MediaQueryData _mediaQueryData =
-  MediaQueryData.fromWindow(WidgetsBinding.instance.window);
+      MediaQueryData.fromWindow(WidgetsBinding.instance.window);
 
   static final deviceHeight = _mediaQueryData.size.height;
   static final deviceWidth = _mediaQueryData.size.width;
@@ -14,9 +14,9 @@ mixin Constants {
   static final isPortrait = orientation == Orientation.portrait;
 
   static const paddingSym =
-  EdgeInsets.symmetric(vertical: 12.0, horizontal: 15.0);
+      EdgeInsets.symmetric(vertical: 12.0, horizontal: 15.0);
   static const marginSym =
-  EdgeInsets.symmetric(vertical: 12.0, horizontal: 15.0);
+      EdgeInsets.symmetric(vertical: 12.0, horizontal: 15.0);
 
   static const paddingAll = EdgeInsets.all(15.0);
   static const marginAll = EdgeInsets.all(15.0);
@@ -25,6 +25,9 @@ mixin Constants {
       fontFamily: CupertinoIcons.iconFont,
       fontPackage: CupertinoIcons.iconFontPackage);
   static const IconData arrowUpArrowDownCircleFill = IconData(0xf51f,
+      fontFamily: CupertinoIcons.iconFont,
+      fontPackage: CupertinoIcons.iconFontPackage);
+  static const IconData airplane = IconData(0xf4d4,
       fontFamily: CupertinoIcons.iconFont,
       fontPackage: CupertinoIcons.iconFontPackage);
 
@@ -39,6 +42,5 @@ mixin Constants {
     Icons.airplanemode_active_rounded,
     Constants.briefcase,
     Icons.airplanemode_active_rounded,
-
   ];
 }

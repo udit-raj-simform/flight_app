@@ -1,6 +1,7 @@
 export 'package:flight_app/main.dart';
 export 'package:flight_app/my_app.dart';
 export 'package:flight_app/pages/home.dart';
+export 'package:flight_app/pages/tickets.dart';
 export 'package:flight_app/theme/app_theme.dart';
 export 'package:flight_app/theme/colors.dart';
 export 'package:flight_app/utils/constants.dart';
